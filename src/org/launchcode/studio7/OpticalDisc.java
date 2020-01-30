@@ -1,0 +1,10 @@
+package org.launchcode.studio7;
+
+
+public interface OpticalDisc {
+    void spinDisc();
+    String pauseDisc();
+    void rewindDisc();
+    String readData();
+    String reportData();
+}
